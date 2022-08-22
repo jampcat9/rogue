@@ -1,0 +1,84 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+span {
+    color: #4E773B;
+}
+
+header nav ul li {
+    display: inline;
+    
+}
+
+h1 {
+    width: 500px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 13px;
+}
+
+li {
+    padding: 10px;
+}
+
+img {
+    width: 1200px;
+    border: 3px solid #4E773B;
+}
+
+.welcome {
+    padding: 10px 10px 30px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.specials, 
+.reviews, 
+.contact {
+    width: 400px;
+    height: auto;
+    padding: 30px 50px 50px 50px;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+a {
+    color:#4E773B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.specials, 
+.reviews {
+    border-right: 2px solid lightgray;
+}
+
+.boldcap {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+}
+
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
